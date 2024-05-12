@@ -1,0 +1,359 @@
+@import url('https://fonts.cdnfonts.com/css/myriad-pro?styles=947,946,953');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Myriad Pro'; 
+}
+body {
+    height: 100vh;
+    width: 100%;
+}
+/* ===== Common Shape Icon Start ===== */
+/* .shap-icon {
+    width: 21% !important;
+    height: 3px !important;
+}  */
+/* ===== Common Shape Icon End ===== */
+
+/* ===== Header Style ===== */
+#header{
+    background-color: #020e28;
+    width: 100%;
+    height: 70px;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+}
+.contact-item {
+    font-size: 18px;
+    color: #fcfeff;
+    padding-left: 20px;
+}
+.contact-item:first-child {
+    border-right: 2px solid #e0e0e0;
+    padding-right: 20px;
+}
+.contact-item > svg {
+    margin-right: 15px;
+}
+/* ===== Header Style end ===== */
+
+/* ===== nav Style ===== */
+#nav {
+    background-color: #fcfeff;
+    width: 100%;
+    height: 100px;
+    font-weight: 600;
+    /* font-family: 'Myriad Pro';       */
+}
+.nav-item {
+    
+    padding: 24px 0 0 0;
+}
+.nav-item > a {
+    color: #020e28;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.uniq-nav{
+    padding-bottom: 29px;
+    border-bottom: 3px solid #fdbe00;
+}
+.uniq-nav > a{
+    color: #fdbe00;
+}
+
+.question-btn {
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to right, #fdbe00 , #007dff);
+    color: #ddd;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+/* ===== nav Style end ===== */
+
+/* ===== Hero Section Style end ===== */
+#hero-section {
+    background-image: url("images/banner-bg-1.png");
+    width: 100%;
+    min-height: 700px;
+    opacity: 25% #112036;
+    background-repeat: no-repeat;
+}
+.hero-container {
+    /* padding: 100px 0px 100px 0px; */
+
+}
+.hero-text {
+    margin-top: 220px;
+    color:#e0e0e0;
+}
+.hero-text > h2 {
+    font-size: 65px;
+    font-weight: 700;
+}
+.hero-text > p {
+    font-size: 22px;
+    letter-spacing: 2px
+}
+
+.hero-img-bg{
+    background-image: url("images/banner-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 550px 550px;
+    margin: 90px 0px 90px 0px;
+}
+.hero-img-bg > img {
+    width: 100% 85%;
+    margin: -59px 0px 10px -30px;
+}
+
+/* ===== Hero Section Style end ===== */
+
+/* ===== Services Section Style ===== */
+#ser-section-box{
+    width: 100%;
+}
+.all-box {
+    margin: 100px auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#ser-section-box .box{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    border-right: 1px solid rgba(100, 100, 111, 0.2);
+    
+}
+#ser-section-box .box:last-child{
+    border: none;
+    
+}
+.icon-header {
+    display: Flex;
+}
+.box img {
+    margin-top: 10px;
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+}
+.box h3 {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: normal;
+}
+.box p {
+    padding: 0px 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+/* .ser-section-box .box-bg {
+    
+  } */
+#ser-section{
+    width: 100%;
+    min-height: max-content;
+}
+.ser-img-container{
+    margin: 30px auto;
+}
+
+.ser-img-bg > img {
+    width: 600px;
+    margin-bottom: 70px;
+}
+.ser-content{
+    margin: 170px 0px 0px 0px;
+}
+.ser-content  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.ser-content p {
+    font-size: 18px;
+    letter-spacing: 2px
+}
+/* ===== Services Section Style end ===== */
+
+/* ===== Discriptio Section Style ===== */
+#dis-section{
+    background-image: url("images/banner-bg-2.png");
+    width: 100%;
+    min-height: 600px;
+    opacity: 25% #112036;
+
+}
+.icon-dis-content{
+    margin-top: 70px;
+    color: #dddee0;
+}
+.dis-content-1{
+    margin-right: 100px;
+}
+.dis-content-2{
+    margin-left: 100px;
+}
+.icon-dis-content img {
+    width: 51px;
+    height: 51px;
+    margin-bottom: 20px;
+}
+.icon-dis-content .icon-uncommon{
+    width: 116px;
+    height: 25px;
+}
+.icon-dis-content h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+/* ===== Discriptio Section Style end ===== */
+
+/* ===== Work Section Style ===== */
+#work-section{
+    width: 100%;
+    height: 650px;
+    margin: 30px auto;
+}
+.work-secti-class h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30% 0% 0% 0%;
+    text-transform: uppercase;
+}
+.work-secti-class h5 {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: justify;
+    margin: 5% 2%;
+}
+
+.multi-img {
+    position: relative;
+    margin-top: 100px;
+    width: 440px; 
+    height: 465px;
+}
+.image-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10; /* Place image1 on top */
+  }
+  
+  .image-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 45px;
+    left: 60%; 
+    transform: translateX(-30%);
+    z-index: 1;
+  }
+
+/* ===== Work Section Style end ===== */
+
+/* ===== Service Branding Section Style end ===== */
+#ser-branging {
+    background-image: url("images/banner-bg-3.png");
+    width: 100%;
+    height: 600px;
+}
+.bg-brand{
+    display: block;
+    margin: 10% 0%;
+    background-image: url("images/banner-4.png");
+    width: 70%;
+    height: 300px;
+}
+.bg-brand-box {
+    margin: 5% -45% 12% 50%;
+    background-color: #141d32;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 5px 0px;
+}
+.bg-brand-box h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.bg-brand-box p {
+    color: #dddee0;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.bg-brand-box .btn {
+    background-color: #007dff;
+    color: #dddee0;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+/* ===== Service Branding Section Style end ===== */
+
+
+
+/* ===== Footer widget Style ===== */
+#footer-we{
+    width: 100%;
+    height: 409.53px;
+    background-color: #112036;
+    padding: 50px 0;
+}
+.footer-logo {
+    display: block;
+    margin: 0 auto;
+    height: 1.083in;
+    width: 2.097in;
+}
+.content-footer {
+    display: flex;
+    justify-content: center !important;
+}
+.col-md-3 {
+    padding: 0 auto;
+}
+.footer-common-h{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #dddee0;
+}
+.content-footer > div > p {
+    color: #eeeff1;
+    font-weight: 300;
+}
+.content-footer > div > p > i > img {
+    margin-right: 10px;
+}
+/* ===== Footer widget Style end  ===== */
+
+/* ===== Footer Style ===== */
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 38.15px;
+    color: #eeeff0;
+    text-align: center;
+    background-color: #000818; 
+}
+footer > p {
+    font-size: 16px;
+    padding: 7px 0px;
+}
+/* ===== Footer Style end ===== */
