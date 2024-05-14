@@ -10,12 +10,6 @@ body {
     height: 100vh;
     width: 100%;
 }
-/* ===== Common Shape Icon Start ===== */
-/* .shap-icon {
-    width: 21% !important;
-    height: 3px !important;
-}  */
-/* ===== Common Shape Icon End ===== */
 
 /* ===== Header Style ===== */
 #header{
@@ -117,6 +111,12 @@ body {
 .hero-img-bg > img {
     width: 100% 85%;
     margin: -59px 0px 10px -30px;
+}
+.ellipse-main {
+    margin-top: 30px;
+    display: inline-block;
+    place-items: center;
+
 }
 
 /* ===== Hero Section Style end ===== */
